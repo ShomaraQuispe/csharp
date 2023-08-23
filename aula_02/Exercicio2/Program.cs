@@ -5,6 +5,10 @@
         static void Main(string[] args)
         {
             float nota1, nota2, nota3, nota4, notaMedia;
+            string nomeAluno;
+
+            Console.WriteLine("Digite o nome do aluno(a):");
+            nomeAluno = Console.ReadLine();
 
             Console.WriteLine("Digite a primeira nota do aluno(a): ");
             nota1 = Convert.ToSingle(Console.ReadLine());
@@ -20,7 +24,7 @@
 
             notaMedia = (nota1+nota2+nota3+nota4)/4;
 
-            Console.WriteLine("A nota média do(a) aluno(a) é: " + notaMedia);
+            Console.WriteLine("A nota média do(a) aluno(a), " + nomeAluno + ", é " + notaMedia);
         }
     }
 }

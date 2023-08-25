@@ -37,7 +37,8 @@
                         Console.WriteLine($"Olá, {nome}! Você não está apto para doar!");
                     }
 
-                } else 
+                }
+                else
                 {
                     Console.WriteLine("Você digitou um valor inválido!");
                 }
@@ -45,7 +46,7 @@
 
             }
             else
-                Console.WriteLine($"Olá, {nome}! Você não está apto para doar!");
+                Console.WriteLine($"Olá, {nome}! Você não está apto(a) para doar!");
 
         }
     }

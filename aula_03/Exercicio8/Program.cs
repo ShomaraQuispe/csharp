@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            float saldo = 1000, novoSaldo;
+            float saldo = 1000, valorDaOperacao=0;
             int operacao;
             string? nome, nomeOperacao;
 
@@ -17,40 +17,42 @@
             Console.WriteLine("3 - DEPOSITO");
             operacao = Convert.ToInt32(Console.ReadLine());
 
-            if (operacao == 1)
-            {
-                novoSaldo = saldo;
-            }
-
-            else if (operacao == 2 || operacao == 3)
-            {
-                Console.WriteLine("Digite o valor");
-                novoSaldo = Convert.ToSingle(Console.ReadLine());
-            }
-            else
-            {
-                Console.WriteLine("Operação Inválida");
-            }
-
             switch (operacao)
             {
                 case 1:
-                    novoSaldo = saldo;
+                    valorDaOperacao = saldo;
                     nomeOperacao = "SALDO";
                     break;
                 case 2:
-                    saldo = 1000 - novoSaldo;
-                    nomeOperacao = "SAQUE";
+                    Console.WriteLine("Digite um valor que deseja sacar:");
+                    valorDaOperacao = Convert.ToSingle(Console.ReadLine());
+                    if ((valorDaOperacao <= saldo) && (valorDaOperacao > 0))
+                    {
+                        saldo = 1000 - valorDaOperacao;
+                        nomeOperacao = "SAQUE CONCLUÍDO COM SUCESSO";
+                    }
+                    else
+                        nomeOperacao = "SALDO INSUFICIENTE OU VALOR INVÁLIDO";
+                    break;
+                case 3:
+                    Console.WriteLine("Digite um valor que deseja depositar:");
+                    valorDaOperacao = Convert.ToSingle(Console.ReadLine());
+                    if (valorDaOperacao > 0)
+                    {
+                    saldo = 1000 + valorDaOperacao;
+                    nomeOperacao = "DEPOSITO";
+                    }
+                    else
+                        nomeOperacao = "SALDO INSUFICIENTE OU VALOR INVÁLIDO";
                     break;
                 default:
-                    saldo = 1000 + novoSaldo;
-                    nomeOperacao = "DEPOSITO";
+                    nomeOperacao = "OPERAÇÃO INVÁLIDA";
                     break;
             }
             Console.WriteLine($"{nome}, segue abaixo sua solicitação!");
             Console.WriteLine("---------------------------------------");
-            Console.WriteLine($"Operação solicitada: {nomeOperacao}");
-            Console.WriteLine($"O seu saldo atual é de R${novoSaldo}");
+            Console.WriteLine($"Status da operação solicitada: {nomeOperacao}");
+            Console.WriteLine($"O seu saldo atual é de R${saldo}");
         }
     }
 }

@@ -14,7 +14,7 @@ namespace Exercicio4
             Console.WriteLine("Escreva a segunda palavra:");
             palavra2 = Console.ReadLine();
 
-            Console.WriteLine("Escreva a terceir palavra:");
+            Console.WriteLine("Escreva a terceira palavra:");
             palavra3 = Console.ReadLine();
 
             if (palavra1 is not null && palavra2 is not null && palavra3 is not null)
@@ -30,7 +30,7 @@ namespace Exercicio4
                         else
                             Console.WriteLine("Pomba");
                     }
-                    if (palavra2.Equals("mamifero"))
+                    else
                     {
                         if (palavra3.Equals("onivoro"))
                         {
@@ -42,21 +42,34 @@ namespace Exercicio4
                     }
 
                 }
-            }
-            else
-            {
-                if (palavra3.Equals("onivoro"))
-                    Console.WriteLine("Homem");
+                else if (palavra1.Equals("invertebrado"))
                 {
-                    Console.WriteLine("Vaca");
+                    if (palavra2.Equals("inseto"))
+                    {
+                        if (palavra3.Equals("hematofago"))
+                            Console.WriteLine("pulga");
+                        else
+                            Console.WriteLine("lagarta");
+                    }
+
+                    else
+                    {
+                        if (palavra3.Equals("hematofago"))
+                        {
+                            Console.WriteLine("sanguessuga");
+                        }
+                        else
+                            Console.WriteLine("minhoca");
+                    }
+                }
+
+                else
+                {
+                    Console.WriteLine("Escreva uma palavra válida!");
                 }
             }
 
         }
-            else
-            {
-                Console.WriteLine("Escreva uma palavra válida!");
-            }
-}
+
     }
 }

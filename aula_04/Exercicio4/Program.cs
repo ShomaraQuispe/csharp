@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int idade, genero, cargo, mulherCis = 0, homemCis = 0, nBinario = 0, mulherT = 0, homemT = 0, outros = 0, back = 0, front = 0, full = 0, mobile = 0;
+            int idade, genero, cargo, back = 0;
             string continua;
             int total = 0, mulherCTFront = 0, homemCTMobile40 = 0, nBiFull30 = 0;
             float mediaIdade = 0;
@@ -34,39 +34,10 @@
                         Console.WriteLine("Qual é o seu cargo?\n1-Back-end \n2-Front-end \n3-Mobile \n4-FullStack");
                         cargo = Convert.ToInt32(Console.ReadLine());
                     } while (cargo < 1 || cargo > 4);
-
-                    /*if (cargo == 1)
-                        back++;
-
-                    if (cargo == 2)
-                        front++;
-
-                    if (cargo == 3)
-                        mobile++;
-
-                    if (cargo == 4)
-                        full++;*/
                 
 
                 } while (genero < 1 || genero > 6);
 
-                /*if (genero == 1)
-                    mulherCis++;
-
-                if (genero == 2)
-                    homemCis++;
-
-                if (genero == 3)
-                    nBinario++;
-
-                if (genero == 4)
-                    mulherT++;
-
-                if (genero == 5)
-                    homemT++;
-
-                if (genero == 6)
-                    outros++;*/
 
                 if ((genero == 1 || genero == 4) && cargo == 2)
                     mulherCTFront++;

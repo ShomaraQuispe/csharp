@@ -17,7 +17,6 @@
                     Console.WriteLine($"O número {vetor1[indice]} está localizado na posição: [{indice}]");
                 }
             }
-
             if (procurarNumero > 10 || procurarNumero < 0)
             {
                 Console.WriteLine($"O número {procurarNumero} não foi encontrado");

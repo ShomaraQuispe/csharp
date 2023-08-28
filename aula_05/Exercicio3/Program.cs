@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             int[,] matriz02 = new int[3, 3];
-            int somaDiagonalPrincipal, somaDiagonalSecundaria;
+            int somaDiagonalPrincipal = 0, somaDiagonalSecundaria = 0;
 
             for (int indiceLinha = 0; indiceLinha < Math.Sqrt(matriz02.Length); indiceLinha++)
             {
@@ -16,22 +16,21 @@
                 }
             }
 
-            Console.WriteLine("Diagonal principal: ");
+            Console.Write("Diagonal principal: ");
             for (int indiceLinha = 0; indiceLinha < Math.Sqrt(matriz02.Length); indiceLinha++)
             {
                 Console.Write($"{matriz02[indiceLinha, indiceLinha]} ");
+                somaDiagonalPrincipal += matriz02[indiceLinha, indiceLinha];
             }
 
-            Console.WriteLine("\n\nDiagonal secundária: ");
+            Console.Write("\n\nDiagonal secundária: ");
             for (int indiceLinha = 0; indiceLinha < Math.Sqrt(matriz02.Length); indiceLinha++)
             {
-                Console.Write($"{matriz02[indiceLinha, 3 - 1 - indiceLinha]} ");
+                Console.Write($"{matriz02[indiceLinha, (int)(Math.Sqrt(matriz02.Length) - 1 - indiceLinha)]} ");
+                somaDiagonalSecundaria += matriz02[indiceLinha, (int)(Math.Sqrt(matriz02.Length) - 1 - indiceLinha)];
             }
-
-            somaDiagonalPrincipal = matriz02[0,0] + matriz02[1, 1] + matriz02[2, 2];
-            somaDiagonalSecundaria = matriz02[2,0] + matriz02[1, 1] + matriz02[0, 2];
-            Console.WriteLine($"\nSoma dos elementos da Diagonal principal: {somaDiagonalPrincipal}");
-            Console.WriteLine($"\nSoma dos elementos da Diagonal segundaria:{somaDiagonalSecundaria}");
+            Console.WriteLine($"\n\nSoma da diagonal principal: {somaDiagonalPrincipal}");
+            Console.WriteLine($"\nSoma da diagonal secundaria: {somaDiagonalSecundaria}");
         }
     }
 }

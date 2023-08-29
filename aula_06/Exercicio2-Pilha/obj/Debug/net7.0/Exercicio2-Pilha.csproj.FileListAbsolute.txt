@@ -1,0 +1,14 @@
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\bin\Debug\net7.0\Exercicio2-Pilha.exe
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\bin\Debug\net7.0\Exercicio2-Pilha.deps.json
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\bin\Debug\net7.0\Exercicio2-Pilha.runtimeconfig.json
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\bin\Debug\net7.0\Exercicio2-Pilha.dll
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\bin\Debug\net7.0\Exercicio2-Pilha.pdb
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\obj\Debug\net7.0\Exercicio2-Pilha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\obj\Debug\net7.0\Exercicio2-Pilha.AssemblyInfoInputs.cache
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\obj\Debug\net7.0\Exercicio2-Pilha.AssemblyInfo.cs
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\obj\Debug\net7.0\Exercicio2-Pilha.csproj.CoreCompileInputs.cache
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\obj\Debug\net7.0\Exercicio2-Pilha.dll
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\obj\Debug\net7.0\refint\Exercicio2-Pilha.dll
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\obj\Debug\net7.0\Exercicio2-Pilha.pdb
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\obj\Debug\net7.0\Exercicio2-Pilha.genruntimeconfig.cache
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Pilha\obj\Debug\net7.0\ref\Exercicio2-Pilha.dll

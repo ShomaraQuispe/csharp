@@ -1,0 +1,14 @@
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\obj\Debug\net7.0\Exercicio3-Collection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\obj\Debug\net7.0\Exercicio3-Collection.AssemblyInfoInputs.cache
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\obj\Debug\net7.0\Exercicio3-Collection.AssemblyInfo.cs
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\obj\Debug\net7.0\Exercicio3-Collection.csproj.CoreCompileInputs.cache
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\bin\Debug\net7.0\Exercicio3-Collection.exe
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\bin\Debug\net7.0\Exercicio3-Collection.deps.json
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\bin\Debug\net7.0\Exercicio3-Collection.runtimeconfig.json
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\bin\Debug\net7.0\Exercicio3-Collection.dll
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\bin\Debug\net7.0\Exercicio3-Collection.pdb
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\obj\Debug\net7.0\Exercicio3-Collection.dll
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\obj\Debug\net7.0\refint\Exercicio3-Collection.dll
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\obj\Debug\net7.0\Exercicio3-Collection.pdb
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\obj\Debug\net7.0\Exercicio3-Collection.genruntimeconfig.cache
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio3-Collection\obj\Debug\net7.0\ref\Exercicio3-Collection.dll

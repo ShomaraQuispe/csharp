@@ -16,7 +16,7 @@
                 }
             }
 
-            Console.Write("Diagonal principal: ");
+            Console.Write("\nDiagonal principal: ");
             for (int indiceLinha = 0; indiceLinha < Math.Sqrt(matriz02.Length); indiceLinha++)
             {
                 Console.Write($"{matriz02[indiceLinha, indiceLinha]} ");

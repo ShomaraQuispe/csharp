@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int[] vetor = new int[10];
+            int soma;
+            float mediaDoVetor;
+
+
         }
     }
 }

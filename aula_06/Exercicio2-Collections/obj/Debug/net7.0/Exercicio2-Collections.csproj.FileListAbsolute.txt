@@ -1,0 +1,14 @@
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\bin\Debug\net7.0\Exercicio2-Collections.exe
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\bin\Debug\net7.0\Exercicio2-Collections.deps.json
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\bin\Debug\net7.0\Exercicio2-Collections.runtimeconfig.json
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\bin\Debug\net7.0\Exercicio2-Collections.dll
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\bin\Debug\net7.0\Exercicio2-Collections.pdb
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\obj\Debug\net7.0\Exercicio2-Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\obj\Debug\net7.0\Exercicio2-Collections.AssemblyInfoInputs.cache
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\obj\Debug\net7.0\Exercicio2-Collections.AssemblyInfo.cs
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\obj\Debug\net7.0\Exercicio2-Collections.csproj.CoreCompileInputs.cache
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\obj\Debug\net7.0\Exercicio2-Collections.dll
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\obj\Debug\net7.0\refint\Exercicio2-Collections.dll
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\obj\Debug\net7.0\Exercicio2-Collections.pdb
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\obj\Debug\net7.0\Exercicio2-Collections.genruntimeconfig.cache
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_06\Exercicio2-Collections\obj\Debug\net7.0\ref\Exercicio2-Collections.dll

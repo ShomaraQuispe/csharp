@@ -1,0 +1,14 @@
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\bin\Debug\net7.0\Exercicio6.exe
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\bin\Debug\net7.0\Exercicio6.deps.json
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\bin\Debug\net7.0\Exercicio6.runtimeconfig.json
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\bin\Debug\net7.0\Exercicio6.dll
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\bin\Debug\net7.0\Exercicio6.pdb
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\obj\Debug\net7.0\Exercicio6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\obj\Debug\net7.0\Exercicio6.AssemblyInfoInputs.cache
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\obj\Debug\net7.0\Exercicio6.AssemblyInfo.cs
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\obj\Debug\net7.0\Exercicio6.csproj.CoreCompileInputs.cache
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\obj\Debug\net7.0\Exercicio6.dll
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\obj\Debug\net7.0\refint\Exercicio6.dll
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\obj\Debug\net7.0\Exercicio6.pdb
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\obj\Debug\net7.0\Exercicio6.genruntimeconfig.cache
+C:\Users\shoma\OneDrive\Área de Trabalho\csharp\aula_08\Exercicio6\obj\Debug\net7.0\ref\Exercicio6.dll

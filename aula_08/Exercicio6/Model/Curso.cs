@@ -14,10 +14,10 @@ namespace Exercicio6.Model
         private string id;
         private int duracao;
 
-        public Curso(string area, string nomDoCurso, int valor, string id, int duracao)
+        public Curso(string area, string nomeDoCurso, int valor, string id, int duracao)
         {
             this.area = area;
-            this.nomeDoCurso = nomDoCurso;
+            this.nomeDoCurso = nomeDoCurso;
             this.valor = valor;
             this.id = id;
             this.duracao = duracao;
@@ -49,7 +49,7 @@ namespace Exercicio6.Model
             this.duracao = duracao;
         }
 
-        public void Visualizar()
+        public virtual void Visualizar()
         {
             Console.WriteLine("\n****************************************************************");
             Console.WriteLine("\nDados do Curso");
@@ -57,7 +57,7 @@ namespace Exercicio6.Model
             Console.WriteLine("ID do Curso: " + this.id);
             Console.WriteLine("Área do Curso: " + this.area);
             Console.WriteLine("Nome do Curso: " + this.nomeDoCurso);
-            Console.WriteLine("Investimento do Curso: " + this.valor);
+            Console.WriteLine("Investimento do Curso: " + (this.valor).ToString(format: "C"));
             Console.WriteLine("Duração: " + this.duracao + " horas");
         }
     }

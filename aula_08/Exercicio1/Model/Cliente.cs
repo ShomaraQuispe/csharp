@@ -11,14 +11,14 @@ namespace Exercicio1.Model
     {
         private string nome;
         private int id;
-        private string cpf;
-        private string rg;
+        private string cep;
+        private string telefone;
         private string email;
-        public Cliente(string nome, string cpf, string rg, string email, int id)
+        public Cliente(string nome, string cep, string telefone, string email, int id)
         {
             this.nome = nome;
-            this.cpf = cpf;
-            this.rg = rg;
+            this.cep = cep;
+            this.telefone = telefone;
             this.email = email;
             this.id = id;
         }
@@ -29,16 +29,16 @@ namespace Exercicio1.Model
             this.nome = nome;
         }
 
-        public string GetCpf() { return cpf; }
-        public void SetCpf(string cpf)
+        public string GetCpf() { return cep; }
+        public void SetCpf(string cep)
         {
-            this.cpf = cpf;
+            this.cep = cep;
         }
 
-        public string GetRg() { return rg; }
-        public void SetRg(string rg)
+        public string GetRg() { return telefone; }
+        public void SetRg(string telefone)
         {
-            this.rg = rg;
+            this.telefone = telefone;
         }
 
         public string GetEmail() { return email; }
@@ -53,15 +53,15 @@ namespace Exercicio1.Model
             this.id = id;
         }
 
-        public void Visualizar()
+        public virtual void Visualizar()
         {
             Console.WriteLine("\n****************************************************************");
             Console.WriteLine("\nDados do Cliente");
             Console.WriteLine("\n****************************************************************");
             Console.WriteLine("ID do Cliente: " + this.id);
             Console.WriteLine("Nome do Cliente: " + this.nome);
-            Console.WriteLine("CPF do Cliente: " + this.cpf);
-            Console.WriteLine("RG do Cliente: " + this.rg);
+            Console.WriteLine("CEP do Cliente: " + this.cep);
+            Console.WriteLine("Telefone do Cliente: " + this.telefone);
             Console.WriteLine("E-mail do Cliente: " + this.email);
         }
     }
